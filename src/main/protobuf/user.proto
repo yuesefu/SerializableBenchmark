@@ -1,0 +1,8 @@
+option java_package = "com.joseph.learn.protobuf";
+option java_outer_classname = "Reg";
+
+message User {
+    required int64 age = 1;
+    optional string username = 2;
+    optional string address = 3;
+}

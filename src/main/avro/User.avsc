@@ -1,0 +1,8 @@
+{"namespace": "com.joseph.learn.serializable.avro",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "age", "type": "int"},
+     {"name": "username", "type": ["string", "null"], "default":"null"},
+     {"name": "address", "type": ["string", "null"], "default":"null"}
+ ]}
